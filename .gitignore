@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Large datasets
+data/KDDTest+.txt
+data/KDDTrain+.txt
+# Alternatively, to ignore all files in data except the README:
+# data/*
+# !data/README.md
+
+# Outputs and trained models (can be large)
+outputs/
