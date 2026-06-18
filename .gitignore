@@ -1,4 +1,4 @@
-# Virtual environment
+# Virtual environment (very heavy, don't upload)
 .venv/
 venv/
 ENV/
@@ -10,16 +10,14 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 
-# IDE files
+# IDE settings
 .vscode/
 .idea/
 
-# Large datasets
-data/KDDTest+.txt
-data/KDDTrain+.txt
-# Alternatively, to ignore all files in data except the README:
-# data/*
-# !data/README.md
+# Keep the data/ directory structure on GitHub, but ignore all large datasets inside it
+data/*
+!data/README.md
 
-# Outputs and trained models (can be large)
-outputs/
+# Keep the outputs/ directory structure on GitHub, but ignore all generated figures/models inside it
+outputs/*
+!outputs/README.md
